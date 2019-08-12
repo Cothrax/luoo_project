@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="">
+{% load staticfiles %}
+<head><meta name="generator" content="Hexo 3.8.0">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name="theme-color" content="#f8f5ec">
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+{#<meta name="description" content="Vol.704 挥挥手 谁要走">#}
+
+<link rel="shortcut icon" type="image/x-icon" href="{% static "/favicon.ico" %}">
+
+{#<link rel="canonical" href="http://cothrax.xyz/2018/06/27/template/">#}
+
+{#    <link rel="stylesheet" type="text/css" href="{% static "/lib/fancybox/jquery.fancybox.css" %}">#}
+
+    <link rel="stylesheet" type="text/css" href="{% static "/css/style.css" %}">
+    <link rel="stylesheet" type="text/css" href="{% static "/css/custom.css" %}">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-82408259-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-82408259-2');
+</script>
+
+
+  <script id="baidu_push">
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+<script>
+  window.config = {"leancloud":{"app_id":null,"app_key":null},"toc":false,"fancybox":false,"pjax":false};
+</script>
+
+
+    <script type="text/javascript" src="{% static "/lib/jquery/jquery.min.js" %}"></script>
+    <script type="text/javascript" src="{% static "/lib/slideout/slideout.js" %}"></script>
+    <script type="text/javascript" src="{% static "/lib/fancybox/jquery.fancybox.pack.js" %}"></script>
+
+	<script type="text/javascript" src="{% static "/js/src/custom.js" %}"></script>
+    <title> Vol.{{ id }} {{ title }} | 落网搜索站 </title>
+  </head>
+  
+  <body><div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="{% url "index" %}" class="logo">Luoo</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+
+      <a href="{% url "index" %}">
+        <li class="mobile-menu-item">
+            搜索
+        </li>
+      </a>
+    
+      <a href="http://cothrax.xyz/2019/08/11/luoo-server/">
+        <li class="mobile-menu-item">
+            关于
+        </li>
+      </a>
+  </ul>
+</nav>
+
+  <div class="container" id="mobile-panel">
+      <header id="header" class="header">
+          <div class="logo-wrapper"><a href="{% url "index" %}" class="logo">Luoo</a></div>
+          <nav class="site-navbar">
+    <ul id="menu" class="menu">
+      
+        <li class="menu-item">
+          <a class="menu-item-link" href="{% url "index" %}">
+              搜索
+          </a>
+        </li>
+
+        <li class="menu-item">
+          <a class="menu-item-link" href="http://cothrax.xyz/2019/08/11/luoo-server/">
+              关于
+          </a>
+        </li>
+    </ul>
+</nav>
+      </header>
+
+      <main id="main" class="main">
+        <div class="content-wrapper">
+          <div id="content" class="content">
+            
+  
+              <article class="post">
+                  <header class="post-header">
+                      <h1 class="post-title">Vol.{{ id }} {{ title }}</h1>
+
+                      <div class="post-meta">
+                          <span class="post-time">{{ creat_date }}</span>
+        
+          <span class="post-category">
+              {% for raw_tag in tag %}
+                  {% with "?q="|add:raw_tag as tag_url %}
+                      #<a href="{% url "search" %}{{ tag_url }}">{% autoescape off %}{{ raw_tag }}{% endautoescape %}</a>&nbsp;
+                  {% endwith %}
+              {% endfor %}
+          </span>
+
+                      </div>
+                  </header>
+
+                  <div class="post-content">
+
+        <img class="vol-cover" src="{% static cover_url %}" alt=""/>
+        <p>
+            {% autoescape off %}{{ vol_desc }}{% endautoescape %}
+        </p>
+
+<table style="text-align:center">
+<thead>
+<tr>
+<th><i class="my-iconfont icon-play amplitude-play-pause"></i></th>
+<th>Name</th>
+<th class="mobile-hide">Artist</th>
+<th class="mobile-hide">Album</th>
+    <th></th>
+</tr>
+</thead>
+<tbody>
+{% for piece in pieces %}
+    <tr class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="{{ piece.id|add:"-1" }}">
+        <td style="white-space: nowrap" class="song-id"> <span>{{ piece.id }}</span><strong><i class="my-iconfont"></i></strong></td>
+        <td>
+            {{ piece.title }}
+            {% if piece.ne_id %}
+                <a  class="common-link" href="{{ piece.ne_url }}" target="_blank"><i class="my-iconfont icon-netease"></i></a>
+            {% endif %}
+
+            <span class="mobile-show" style="color:rgb(138, 138, 138);"> - {{ piece.artist }}</span>
+        </td>
+        <td class="mobile-hide">{{ piece.artist }}</td>
+        <td class="mobile-hide">{{ piece.album }}</td>
+        <td><a class="common-link" href="{{ piece.file_url }}" target="_blank"><strong><i class="my-iconfont icon-download"></i></strong></a></td>
+    </tr>
+{% endfor %}
+</tbody>
+</table>
+
+      
+    </div>
+
+    
+                  <footer class="post-footer">
+          <nav class="post-nav">
+              {% if prev_id %}
+              <a class="prev" href="{% url "page" prev_id %}">
+                <i class="iconfont icon-left"></i>
+                  <span class="prev-text nav-default">上一期</span>
+                <span class="prev-text nav-mobile">上一期</span>
+
+
+              </a>
+              {% endif %}
+
+              {% if next_id %}
+              <a class="next" href="{% url "page" next_id %}">
+                  <span class="prev-text nav-default">下一期</span>
+                <span class="prev-text nav-mobile">下一期</span>
+                <i class="iconfont icon-right"></i>
+              </a>
+              {% endif %}
+
+          </nav>
+
+      </footer>
+
+              </article>
+          </div>
+          
+  <div class="comments" id="comments"><div id="vcomments"></div></div>
+
+        </div>
+
+      </main>
+
+<footer id="footer" class="footer">
+<div class="copyright">
+ <span class="power-by">
+        Powered by <a class="theme-link" href="https://www.djangoproject.com/">Django</a>
+    </span>
+    <span class="division">|</span>
+    <span class="theme-info">
+        Themed by
+        <a class="theme-link" href="https://github.com/ahonn/hexo-theme-even">Even</a>
+    </span>
+
+    <span class="copyright-year">
+        <span><a class="theme-link" href="http://cothrax.xyz/2019/08/11/luoo-server/">落网不落</a></span>
+        <span class="heart">
+          <i class="iconfont icon-heart"></i>
+        </span>
+        <span class="author">Cothrax</span>
+    </span>
+</div>
+
+</footer>
+
+      <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+      </div>
+    </div>
+	
+	<script type="text/javascript" src="{% static "/js/src/even.js" %}"></script>
+      
+
+<!-- valine Comments -->
+<script src="http://cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="http://unpkg.com/valine/dist/Valine.min.js"></script>
+<script type="text/javascript">
+			new Valine({
+				el: '#vcomments',
+				notify: false,
+				verify: false,
+				app_id: "jCWlu8lcTs8x49AoTrLX58Jr-gzGzoHsz",
+				app_key: "wJTGsSo2uOeTF4dv4d1aYBAx",
+				lang: "en",
+				placeholder: "Leave a comment here",
+				avatar: "hide"
+			});
+</script>
+
+
+  <script type="text/javascript" src="{% static "lib/amplitudejs/dist/amplitude.js" %}"></script>
+  <script>
+      Amplitude.init({
+          "songs": [
+              {% for piece in pieces %}
+                  {
+                      "name": "{{ piece.title }}",
+                      "artist": "{{ piece.artist }}",
+                      "album": "{{ piece.album }}",
+                      "url": "{{ piece.file_url }}",
+                      "cover_art_url": "{{ piece.cover_url }}"
+                  },
+              {% endfor %}
+          ],
+          "autoplay": true
+      });
+  </script>
+
+  </body>
+</html>

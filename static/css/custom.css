@@ -1,0 +1,178 @@
+@font-face {
+  font-family: 'myiconfont';
+  src: url('../fonts/iconfont/iconfont.eot');
+  src: url('../fonts/iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/iconfont/iconfont.woff2') format('woff2'),
+      url('../fonts/iconfont/iconfont.woff') format('woff'),
+      url('../fonts/iconfont/iconfont.ttf') format('truetype');
+}
+
+.my-iconfont {
+  font-family: "myiconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.song:hover {
+    background-color: #f3f3f3;
+    transition: background-color ease 0.1s;
+    cursor: pointer;
+}
+
+.amplitude-playing {
+    background-color: #f3f3f3;
+}
+
+.player-outer {
+	display: block;
+	height: 70px;
+	background-color: #ffffff;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: fixed;
+	z-index: 99999;
+	/*padding-top: 15px;*/
+	/*padding-bottom: 15px;*/
+	-webkit-box-shadow: 0 -3px 10px 0 rgba(0,0,0,.1);
+	box-shadow: 0 -3px 10px 0 rgba(0,0,0,.1);
+}
+
+.icon-play {
+	cursor: pointer;
+}
+.icon-play.amplitude-paused:before {
+	content: '\e64f';
+}
+.icon-play.amplitude-playing:before {
+	content: '\e61a';
+}
+
+.icon-netease:before {
+	content: '\e9ac';
+}
+.icon-download:before {
+	content: '\e749';
+}
+
+.song.amplitude-playing .song-id span {
+	display: none;
+}
+.song.amplitude-playing .song-id i:before {
+	content: '\e643';
+}
+
+/*.song a, .icon-play {*/
+/*	color: rgb(73, 73, 73);*/
+/*	transition: color ease 1s;*/
+/*}*/
+/*.song a:hover, .icon-play:hover {*/
+/*	color: rgb(138, 138, 138);*/
+/*	border-bottom: 0px !important;*/
+/*}*/
+
+
+
+.search-input {
+	width: 90%;
+	padding: 10px;
+	margin: 40px 0 20px 0;
+	border: 1px solid rgb(200, 200, 200);
+	border-radius: .3em;
+	background-color: rgba(0, 0, 0, 0);
+	vertical-align: middle;
+
+}
+.search-button {
+	width: auto;
+	border: 1px solid #ededed;
+	transition-duration: .4s;
+	text-align: center;
+	color: #313131;
+	border-radius: .3em;
+	display: inline-block;
+	background: #ededed;
+	margin: 10px 10px 0;
+	font-weight: 400;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	white-space: nowrap;
+	padding: .5em 1.25em;
+	font-size: .875em;
+	line-height: 1.42857143;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	outline: none;
+}
+
+
+.search-button:hover {
+	background-color: #fefefe;
+	border: 1px solid #313131;
+}
+
+.result-content {
+	max-height: 100px !important;
+	overflow: hidden;
+	white-space: pre-wrap;
+	text-overflow: ellipsis;
+}
+
+.read-more-link {
+	/*float: right;*/
+	margin-bottom: 10px;
+	margin-right: 3px;
+	color: #8a8a8a !important;
+}
+.read-more-link:hover {
+	color: #787878;
+}
+
+.result-cover img, .vol-cover{
+	width: 100%;
+}
+
+.mobile-show {
+	display: none;
+}
+
+@media screen and (max-width: 500px) {
+	.mobile-hide {
+		display: none;
+	}
+	.mobile-show {
+		display: block;
+	}
+}
+
+
+.luoo-logo {
+	width: 20%;
+}
+
+.pagination-index {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Athelas, STHeiti, Microsoft Yahei, sans-serif, "Source Sans Pro", "Helvetica Neue", Arial;
+	transition-property: transform;
+    transition-timing-function: ease-out;
+    transition-duration: 0.3s;
+}
+.pagination-index:before, .pagination-index:after {
+	content: "  ";
+}
+
+a.pagination-index:hover {
+	color: #787878;
+}
+
+.current.pagination-index {
+	color: rgb(138, 138, 138) !important;
+}

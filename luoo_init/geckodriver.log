@@ -1,0 +1,740 @@
+1565016670893	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.it1FwF43qjRM"
+1565016671355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565016671355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565016671355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565016671355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565016673558	Marionette	INFO	Listening on port 33059
+1565016673600	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 133: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1565016850421	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oAK4cZ5h6GoN"
+1565016850876	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565016850877	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565016850877	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565016850877	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565016852904	Marionette	INFO	Listening on port 46651
+1565016853011	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 133: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1565017027139	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ykj7W8sANUSj"
+1565017027579	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565017027579	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565017027579	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565017027579	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565017029656	Marionette	INFO	Listening on port 46805
+1565017029761	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 133: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565003019901%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1565017456914	Marionette	INFO	Stopped listening on port 46805
+[Parent 13865, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1565017557837	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Sn0YpKHr6sAX"
+1565017558294	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565017558294	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565017558294	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565017558294	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565017560412	Marionette	INFO	Listening on port 43849
+1565017560531	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 133: unreachable code after return statement
+1565017574187	Marionette	INFO	Stopped listening on port 43849
+1565017659420	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XStjRp4cb1yW"
+1565017659922	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565017659922	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565017659922	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565017659922	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565017662007	Marionette	INFO	Listening on port 45633
+1565017662125	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 133: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1565017695711	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5ccd05pJQGRM"
+1565017696231	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565017696231	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565017696232	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565017696232	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565017698345	Marionette	INFO	Listening on port 41447
+1565017698459	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 133: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1565017847818	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JkwNgiR6JnXm"
+1565017848308	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565017848309	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565017848309	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565017848309	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565017850428	Marionette	INFO	Listening on port 42191
+1565017850536	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 133: unreachable code after return statement
+1565017866311	Marionette	INFO	Stopped listening on port 42191
+1565017897861	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yBPUXjCambgc"
+1565017898352	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565017898352	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565017898352	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565017898353	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565017900470	Marionette	INFO	Listening on port 45327
+1565017900573	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 133: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565003019901%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1565018525409	Marionette	INFO	Stopped listening on port 45327
+[Parent 28402, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1565018844602	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.K4oWb9uYhrIj"
+1565018845060	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565018845060	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565018845061	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565018845061	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565018847257	Marionette	INFO	Listening on port 43767
+1565018847309	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 133: unreachable code after return statement
+1565018881064	Marionette	INFO	Stopped listening on port 43767
+1565019314249	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.X48QpxiivT4q"
+1565019314684	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565019314685	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565019314685	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565019314685	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565019316667	Marionette	INFO	Listening on port 35349
+1565019316775	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 133: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565003019901%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1565020268952	Marionette	INFO	Stopped listening on port 35349
+[Parent 15706, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1565051827469	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DgdZCBbQ8CET"
+1565051827971	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565051827971	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565051827972	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565051827972	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565051830433	Marionette	INFO	Listening on port 43599
+1565051830478	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e6ac0457c794e27e493f9a5e1d5016fe.js?e6ac0457c794e27e493f9a5e1d5016fe, line 133: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565037591959%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1565052947802	Marionette	INFO	Stopped listening on port 43599
+[Parent 5709, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1565062181802	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.obebTLjdrDQp"
+1565062182230	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565062182230	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565062182230	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565062182230	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565062184380	Marionette	INFO	Listening on port 38507
+1565062184489	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_af2fba49482b6d1d2732e8d444f5b13c.js?af2fba49482b6d1d2732e8d444f5b13c, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_af2fba49482b6d1d2732e8d444f5b13c.js?af2fba49482b6d1d2732e8d444f5b13c, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_af2fba49482b6d1d2732e8d444f5b13c.js?af2fba49482b6d1d2732e8d444f5b13c, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_af2fba49482b6d1d2732e8d444f5b13c.js?af2fba49482b6d1d2732e8d444f5b13c, line 133: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565036234063%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1565062812078	Marionette	INFO	Stopped listening on port 38507
+[Parent 7617, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1565063091236	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5bCQgSeHourf"
+1565063091670	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565063091670	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565063091670	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565063091670	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565063093671	Marionette	INFO	Listening on port 36751
+1565063093793	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_af2fba49482b6d1d2732e8d444f5b13c.js?af2fba49482b6d1d2732e8d444f5b13c, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_af2fba49482b6d1d2732e8d444f5b13c.js?af2fba49482b6d1d2732e8d444f5b13c, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_af2fba49482b6d1d2732e8d444f5b13c.js?af2fba49482b6d1d2732e8d444f5b13c, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_af2fba49482b6d1d2732e8d444f5b13c.js?af2fba49482b6d1d2732e8d444f5b13c, line 133: unreachable code after return statement
+1565063150552	Marionette	INFO	Stopped listening on port 36751
+[Parent 20474, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1565064198033	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.RV5C65xqJQ2A"
+1565064198493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565064198493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565064198493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565064198493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565064200669	Marionette	INFO	Listening on port 40915
+1565064200740	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_af2fba49482b6d1d2732e8d444f5b13c.js?af2fba49482b6d1d2732e8d444f5b13c, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_af2fba49482b6d1d2732e8d444f5b13c.js?af2fba49482b6d1d2732e8d444f5b13c, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_af2fba49482b6d1d2732e8d444f5b13c.js?af2fba49482b6d1d2732e8d444f5b13c, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_af2fba49482b6d1d2732e8d444f5b13c.js?af2fba49482b6d1d2732e8d444f5b13c, line 133: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565036234063%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1565065290610	Marionette	INFO	Stopped listening on port 40915
+[Parent 3067, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1565155609183	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.obUeRmaECXyP"
+1565155609656	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565155609656	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565155609656	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565155609656	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565155611723	Marionette	INFO	Listening on port 43381
+1565155611828	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565136009035%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1565157557327	Marionette	INFO	Stopped listening on port 43381
+[Parent 27775, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1565162248138	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qeButrhaiLcs"
+1565162248584	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565162248584	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565162248584	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565162248584	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565162250684	Marionette	INFO	Listening on port 45255
+1565162250746	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565136009035%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1565167480452	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IobOoxw0vLEC"
+1565167480888	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565167480888	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565167480888	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565167480889	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565167482926	Marionette	INFO	Listening on port 39003
+1565167483029	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+1565167487830	Marionette	INFO	Stopped listening on port 39003
+1565167729242	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KWAwiFK5cr53"
+1565167729707	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565167729707	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565167729708	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565167729708	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565167731723	Marionette	INFO	Listening on port 46131
+1565167731823	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+1565167735629	Marionette	INFO	Stopped listening on port 46131
+1565167812675	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LUIbEye2bvrX"
+1565167813175	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565167813175	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565167813175	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565167813176	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565167815159	Marionette	INFO	Listening on port 37513
+1565167815264	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+1565167820424	Marionette	INFO	Stopped listening on port 37513
+1565168184705	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MFFJrgqWua30"
+1565168185173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565168185173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565168185173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565168185173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565168187319	Marionette	INFO	Listening on port 37501
+1565168187420	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+1565168190953	Marionette	INFO	Stopped listening on port 37501
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1565168241339	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QJjKJbNfKQVs"
+1565168241788	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565168241788	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565168241788	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565168241788	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565168244000	Marionette	INFO	Listening on port 33007
+1565168244046	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+1565168247670	Marionette	INFO	Stopped listening on port 33007
+1565168331704	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BfDRYktX90tY"
+1565168332228	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565168332229	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565168332229	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565168332229	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565168334441	Marionette	INFO	Listening on port 39115
+1565168334513	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+1565168356296	Marionette	INFO	Stopped listening on port 39115
+1565168411066	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GLM41LOzfm4h"
+1565168411525	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565168411525	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565168411525	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565168411525	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565168413468	Marionette	INFO	Listening on port 44637
+1565168413578	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+1565168442511	Marionette	INFO	Stopped listening on port 44637
+1565168586536	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CtOZXk9CC9rT"
+1565168587072	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565168587072	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565168587072	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565168587072	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565168589149	Marionette	INFO	Listening on port 39541
+1565168589252	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565136009035%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1565168984466	Marionette	INFO	Stopped listening on port 39541
+[Parent 7702, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1565169605852	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IhnFqJz28dpL"
+1565169606304	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565169606304	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565169606305	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565169606305	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565169608358	Marionette	INFO	Listening on port 43169
+1565169608467	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1565169675241	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zDTJLlPiomkV"
+1565169675711	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565169675712	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565169675712	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565169675712	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565169677776	Marionette	INFO	Listening on port 40899
+1565169677884	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+1565169681743	Marionette	INFO	Stopped listening on port 40899
+1565169742406	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dJyimddiPsFT"
+1565169742863	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565169742863	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565169742864	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565169742864	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565169744954	Marionette	INFO	Listening on port 40931
+1565169745059	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+1565169995918	Marionette	INFO	Stopped listening on port 40931
+[Parent 24488, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1565170053601	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Y9DcgFybRLnT"
+1565170054044	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565170054044	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565170054044	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565170054044	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565170056153	Marionette	INFO	Listening on port 46345
+1565170056208	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565136009035%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 29147, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+Exiting due to channel error.
+1565172959053	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XAOvIywXejgx"
+1565172959514	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565172959514	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565172959514	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565172959514	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565172961689	Marionette	INFO	Listening on port 44333
+1565172961760	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565136009035%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1565175625410	Marionette	INFO	Stopped listening on port 44333
+[Parent 3921, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 3921, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+1565176559968	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jR3SWLDrtwwt"
+1565176560449	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565176560449	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565176560450	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565176560450	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565176562663	Marionette	INFO	Listening on port 40355
+1565176562680	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565136009035%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1565179282556	Marionette	INFO	Stopped listening on port 40355
+[Parent 23248, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1565179962138	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.m7sa55R14hTB"
+1565179962641	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565179962641	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565179962642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565179962642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565179964917	Marionette	INFO	Listening on port 43039
+1565179964974	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+1565188572475	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9rdCW5nMsUcH"
+1565188572951	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565188572951	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565188572951	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565188572951	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565188575158	Marionette	INFO	Listening on port 35335
+1565188575205	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565181472444%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1565191550046	Marionette	INFO	Stopped listening on port 35335
+[Parent 19491, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1565225824555	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JZEcUDIdAQUJ"
+1565225825071	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565225825071	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565225825071	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565225825071	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565225827315	Marionette	INFO	Listening on port 43795
+1565225827363	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_e442ebe2ade3c79d81ea66fcfc215eae.js?e442ebe2ade3c79d81ea66fcfc215eae, line 133: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565222410127%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1565228317448	Marionette	INFO	Stopped listening on port 43795
+[Parent 4818, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1565404828442	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2FG6Kfqa4lqK"
+1565404828970	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565404828970	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565404828970	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565404828970	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565404831254	Marionette	INFO	Listening on port 41019
+1565404831349	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 133: unreachable code after return statement
+1565404842498	Marionette	INFO	Stopped listening on port 41019
+1565404946614	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GnBdp6GWlNsA"
+1565404947066	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565404947066	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565404947066	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565404947066	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565404949205	Marionette	INFO	Listening on port 41185
+1565404949223	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 133: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1565405072240	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.COkcpHrWgfkM"
+1565405072759	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565405072760	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565405072760	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565405072760	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565405074853	Marionette	INFO	Listening on port 37451
+1565405074963	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 133: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395212294%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1565408135935	Marionette	INFO	Stopped listening on port 37451
+[Parent 11976, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1565437438494	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.x4qkbwSsJn1W"
+1565437438987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565437438987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565437438987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565437438987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565437441288	Marionette	INFO	Listening on port 38263
+1565437441307	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 133: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1565440269895	Marionette	INFO	Stopped listening on port 38263
+[Parent 10240, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1565569346851	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bS9JW2JGAYfT"
+1565569347341	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565569347341	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565569347341	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565569347341	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565569349676	Marionette	INFO	Listening on port 40495
+1565569349758	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 133: unreachable code after return statement
+1565569543463	Marionette	INFO	Stopped listening on port 40495
+[Parent 10045, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1565570299014	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WWgoSCZixyBk"
+1565570299448	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565570299448	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565570299448	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565570299448	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565570301667	Marionette	INFO	Listening on port 42517
+1565570301721	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 133: unreachable code after return statement
+1565570321070	Marionette	INFO	Stopped listening on port 42517
+1565570839071	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.u9FjIuq118u3"
+1565570839535	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565570839536	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565570839536	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565570839536	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565570841687	Marionette	INFO	Listening on port 35159
+1565570841778	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 133: unreachable code after return statement
+1565570861947	Marionette	INFO	Stopped listening on port 35159
+1565571320014	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4Sc1w6TEEUDT"
+1565571320491	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565571320491	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565571320491	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565571320491	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565571322495	Marionette	INFO	Listening on port 41229
+1565571322593	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 133: unreachable code after return statement
+1565571342652	Marionette	INFO	Stopped listening on port 41229
+1565571926944	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9ELf1QRGc7qP"
+1565571927407	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565571927407	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565571927407	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565571927407	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565571929389	Marionette	INFO	Listening on port 45613
+1565571929495	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 133: unreachable code after return statement
+1565571954973	Marionette	INFO	Stopped listening on port 45613
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1565572043310	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5cgktfuO4O2X"
+1565572043766	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565572043767	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565572043767	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565572043767	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565572045876	Marionette	INFO	Listening on port 42879
+1565572045918	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_c348dfaab0075023c581e30eb5ddaeff.js?c348dfaab0075023c581e30eb5ddaeff, line 133: unreachable code after return statement
+1565572066268	Marionette	INFO	Stopped listening on port 42879

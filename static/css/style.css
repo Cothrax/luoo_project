@@ -1038,7 +1038,7 @@ h6 {
   left: 0px;
   bottom: 0;
   width: 180px;
-  min-height: 75vh;
+  min-height: 85vh;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
   z-index: 0;
@@ -1048,7 +1048,7 @@ h6 {
   position: relative;
   z-index: 1;
   background-color: #fefefe;
-  min-height: 75vh; }
+  min-height: 85vh; }
 
 .slideout-open,
 .slideout-open body,

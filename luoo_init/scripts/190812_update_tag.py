@@ -1,5 +1,4 @@
 from elasticsearch import Elasticsearch
-from luoo_search.utils import changeChineseNumToArab, check_url
 client = Elasticsearch(hosts=['127.0.0.1'], timeout=20)
 
 

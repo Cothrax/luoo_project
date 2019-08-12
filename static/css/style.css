@@ -1209,3 +1209,15 @@ h6 {
   border-left-color: #787878; }
 
 
+blockquote {
+
+    margin: 2em 0;
+    padding: 10px 20px;
+    position: relative;
+    color: rgba(73, 73, 73, 0.8);
+    background-color: rgba(120, 120, 120, 0.05);
+    border-left: 3px solid rgba(120, 120, 120, 0.3);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+}
+blockquote p { margin: 0;}
+

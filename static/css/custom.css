@@ -137,6 +137,7 @@
 
 .result-cover img, .vol-cover{
 	width: 100%;
+	margin-bottom: 10px;
 }
 
 .mobile-show {
@@ -155,7 +156,7 @@
 
 .luoo-logo {
 	margin-top: 30px;
-	width: 20%;
+	width: 15%;
 }
 
 .pagination-index {
@@ -176,4 +177,8 @@ a.pagination-index:hover {
 
 .current.pagination-index {
 	color: rgb(138, 138, 138) !important;
+}
+
+.special-button {
+	text-decoration: underline;
 }

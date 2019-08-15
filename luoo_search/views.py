@@ -14,14 +14,15 @@ TOTAL_NUM = 992
 IGNORED_VOLS = [544, 566, 567, 568]
 
 
-def index(request):
-    return render(request, "new_index.html")
-
-
-def search(request):
-    keywords = request.GET.get('q', '')
-    # is_all = int(request.GET.get('all', 0))
-    page_id = int(request.GET.get('p', 1))
+def get_search_body(keywords, keys, page_id):
+    if not keywords:
+        return {
+            "query": {"match_all": {}},
+            "sort": ["id"],
+            "from": (page_id - 1) * 10,
+            "size": 10,
+            "_source": keys + ["creat_date"]
+        }
 
     num_list = re.split('\D+', changeChineseNumToArab(keywords))
     id_queries = [{"match": {"id": int(i)}} for i in num_list if i]
@@ -32,21 +33,33 @@ def search(request):
                        "pieces.title^0.1", "pieces.artist^0.1", "pieces.album^0.1"]
         }
     }
+    return {
+        "query": {"bool": {"should": id_queries + [kw_query]}},
+        "from": (page_id - 1) * 10,
+        "size": 10,
+        "highlight": {
+            "fields": {key: {} for key in keys},
+            "pre_tags": "<strong>",
+            "post_tags": "</strong>"
+        },
+        "_source": keys + ["creat_date"]
+    }
+
+
+def index(request):
+    return render(request, "new_index.html")
+
+
+def search(request):
+    keywords = request.GET.get('q', '')
+    # is_all = int(request.GET.get('all', 0))
+    page_id = int(request.GET.get('p', 1))
+
     keys = ["id", "title", "tag", "vol_desc"]
 
     response = client.search(
         index="luoo1",
-        body={
-            "query": {"bool": {"should": id_queries + [kw_query]}},
-            "from": (page_id - 1) * 10,
-            "size": 10,
-            "highlight": {
-                "fields": {key: {} for key in keys},
-                "pre_tags": "<strong>",
-                "post_tags": "</strong>"
-            },
-            "_source": keys + ["creat_date"]
-        }
+        body=get_search_body(keywords, keys, page_id)
     )
 
     total_num = response['hits']['total']['value']

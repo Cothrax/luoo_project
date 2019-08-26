@@ -682,3 +682,5 @@
 [ERROR] cannot get 499->{'id': 10, 'title': '缘罪·忏悔', 'album': 'DEMO', 'artist': '福麟阁', 'cover_url': 'http://img-cdn2.luoo.net/pics/albums/2371/cover.jpg!/fwfh/580x580', 'file_url': 'http://mp3-cdn2.luoo.net/low/luoo/S3/10.mp3'}
 [WARNING] logger started 08/12/19 09:07:23
 [WARNING] logger started 08/12/19 09:48:29
+[WARNING] logger started 08/26/19 23:09:47
+[ERROR] mismatch(0.4453545164845475): get 2589476 for 819->{'id': 3, 'title': 'Live Oak Road', 'album': 'Chalk Dust Dream of the Tea Cozy Mitten Company', 'artist': 'The Flower Machine', 'cover_url': 'http://img-cdn2.luoo.net/pics/albums/10036/cover.jpg!/fwfh/580x580', 'file_url': 'http://mp3-cdn2.luoo.net/low/luoo/radio819/03.mp3'}

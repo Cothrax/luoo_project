@@ -63,5 +63,5 @@ def insert_luoo_data(start, limit):
 
 
 if __name__ == "__main__":
-    insert_luoo_data(394, 1)
+    insert_luoo_data(819, 2)
 

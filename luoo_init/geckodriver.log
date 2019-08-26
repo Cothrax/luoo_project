@@ -802,3 +802,16 @@ IPDL protocol error: Handler returned error code!
 
 ###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
 
+1566832188171	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TeNBk8PftxeY"
+1566832188661	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566832188662	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566832188662	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566832188662	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566832190967	Marionette	INFO	Listening on port 33729
+1566832190984	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_8557ff75eecf8ab9e7ce8441c3378fbe.js?8557ff75eecf8ab9e7ce8441c3378fbe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_8557ff75eecf8ab9e7ce8441c3378fbe.js?8557ff75eecf8ab9e7ce8441c3378fbe, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_8557ff75eecf8ab9e7ce8441c3378fbe.js?8557ff75eecf8ab9e7ce8441c3378fbe, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_8557ff75eecf8ab9e7ce8441c3378fbe.js?8557ff75eecf8ab9e7ce8441c3378fbe, line 133: unreachable code after return statement
+1566832241268	Marionette	INFO	Stopped listening on port 33729
+[Parent 7249, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox-qCOyDf/firefox-68.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358

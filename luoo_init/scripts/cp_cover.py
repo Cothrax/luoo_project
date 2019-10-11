@@ -13,9 +13,5 @@ def cp_covers():
         pass
 
 
-def make_black_white(file_path, opt_path):
-    pass
-
-
 if __name__ == '__main__':
     cp_covers()

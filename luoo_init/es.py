@@ -34,7 +34,7 @@ def insert_luoo_data(start, limit):
             for each in DEFAULT_PIECE_VARCHAR:
                 setattr(piece, each, piece_data[each])
             try:
-                ne_id, score = api.get_id(piece.title, piece.artist, piece.album)
+                ne_id, score = api.get_id(piece.title, piece.artist, piece.album, 10)
             except Exception as e:
                 print(e)
                 traceback.print_exc()
@@ -63,5 +63,5 @@ def insert_luoo_data(start, limit):
 
 
 if __name__ == "__main__":
-    insert_luoo_data(819, 2)
+    insert_luoo_data(800, 10)
 

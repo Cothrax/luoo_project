@@ -684,3 +684,8 @@
 [WARNING] logger started 08/12/19 09:48:29
 [WARNING] logger started 08/26/19 23:09:47
 [ERROR] mismatch(0.4453545164845475): get 2589476 for 819->{'id': 3, 'title': 'Live Oak Road', 'album': 'Chalk Dust Dream of the Tea Cozy Mitten Company', 'artist': 'The Flower Machine', 'cover_url': 'http://img-cdn2.luoo.net/pics/albums/10036/cover.jpg!/fwfh/580x580', 'file_url': 'http://mp3-cdn2.luoo.net/low/luoo/radio819/03.mp3'}
+[WARNING] logger started 02/01/20 13:49:57
+[WARNING] logger started 02/01/20 13:50:54
+[ERROR] mismatch(0.49953100858273275): get 18621670 for 805->{'id': 8, 'title': 'Memories （Live in Eindhoven 2008）', 'album': 'An Acoustic Night At The Theatre', 'artist': 'Within Temptation', 'cover_url': 'http://img-cdn2.luoo.net/pics/albums/9863/cover.jpg!/fwfh/580x580', 'file_url': 'http://mp3-cdn2.luoo.net/low/luoo/radio805/08.mp3'}
+[ERROR] cannot get 809->{'id': 4, 'title': '首都机场', 'album': 'Demo', 'artist': '时光胶囊', 'cover_url': 'http://img-cdn2.luoo.net/pics/albums/9915/cover.jpg!/fwfh/580x580', 'file_url': 'http://mp3-cdn2.luoo.net/low/luoo/radio809/04.mp3'}
+[ERROR] mismatch(0.08888888888888889): get 476638468 for 809->{'id': 8, 'title': '迷航', 'album': '迷航', 'artist': 'Glow Curve', 'cover_url': 'http://img-cdn2.luoo.net/pics/albums/9918/cover.jpg!/fwfh/580x580', 'file_url': 'http://mp3-cdn2.luoo.net/low/luoo/radio809/08.mp3'}

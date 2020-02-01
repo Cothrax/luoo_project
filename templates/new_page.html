@@ -166,15 +166,23 @@
         <td style="white-space: nowrap" class="song-id"> <span>{{ piece.id }}</span><strong><i class="my-iconfont"></i></strong></td>
         <td>
             {{ piece.title }}
-            {% if piece.ne_id %}
-                <a  class="common-link" href="{{ piece.ne_url }}" target="_blank"><i class="my-iconfont icon-netease"></i></a>
-            {% endif %}
+{#            {% if piece.ne_id %}#}
+{#                <a  class="common-link" href="{{ piece.ne_url }}" target="_blank"><i class="my-iconfont icon-netease"></i></a>#}
+{#            {% endif %}#}
 
             <span class="mobile-show" style="color:rgb(138, 138, 138);"> - {{ piece.artist }}</span>
         </td>
         <td class="mobile-hide">{{ piece.artist }}</td>
         <td class="mobile-hide">{{ piece.album }}</td>
-        <td><a class="common-link" href="{{ piece.file_url }}" target="_blank"><strong><i class="my-iconfont icon-download"></i></strong></a></td>
+        <td>
+            {% if piece.href %}
+                {% if piece.href == 'qq' %}
+                <a class="common-link" href="{{ piece.qq_url }}" target="_blank"><strong><i class="my-iconfont icon-qq-music"></i></strong></a>
+                {% else %}
+                <a class="common-link" href="{{ piece.ne_url }}" target="_blank"><strong><i class="my-iconfont icon-netease"></i></strong></a>
+                {% endif %}
+            {% endif %}
+        </td>
     </tr>
 {% endfor %}
 </tbody>
@@ -272,7 +280,7 @@
                       "name": "{{ piece.title }}",
                       "artist": "{{ piece.artist }}",
                       "album": "{{ piece.album }}",
-                      "url": "{{ piece.file_url }}",
+                      "url": "{% autoescape off %}{{ piece.file_url }}{% endautoescape %}",
                       "cover_art_url": "{{ piece.cover_url }}"
                   },
               {% endfor %}

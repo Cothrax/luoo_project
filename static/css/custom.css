@@ -58,6 +58,10 @@
 	content: '\e749';
 }
 
+.icon-qq-music:before {
+	content: '\e521';
+}
+
 .song.amplitude-playing .song-id span {
 	display: none;
 }

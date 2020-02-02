@@ -9,26 +9,36 @@ from luoo_init.utils.strparser import  filter_str, similarity as sim
 DEFAULT_API_URL = 'http://localhost:3200'
 PAGE_URL = 'https://y.qq.com/n/yqq/song/%s.html'
 
+
 def valid_url(song_url):
     if not song_url:
-        return False
+        return None
     try:
         with request.urlopen(song_url) as song:
             if song.status < 200 or song.status >= 300:
-                return False
+                return None
     except Exception as e:
-        return False
-    return True
+        return None
+    return song_url
+
 
 class QQMusicAPI:
     def __init__(self, api_url=DEFAULT_API_URL):
         self.api_url = api_url
 
-    def query(self, url, params):
-        r = requests.get(urljoin(self.api_url, url), params=params)
-        res = json.loads(r.text)
-        time.sleep(randint(3, 5) / 10.0)
-        # if 200 <= int(res['code']) < 300:
+    def query(self, url, params, max_tries=5):
+        tries = 0
+        while True:
+            try:
+                r = requests.get(urljoin(self.api_url, url), params=params)
+                res = json.loads(r.text)
+                time.sleep(randint(3, 5) / 10.0)
+                break
+            except Exception as e:
+                tries += 1
+                if tries == max_tries:
+                    raise e
+
         if res['response']['code'] == 0:
             return res
         else:
@@ -41,7 +51,7 @@ class QQMusicAPI:
         return self.query(search_url, params)
 
     def get_id(self, title, artist, album, if_check=False, depth=5):
-        keywords = "%s %s" % (title, album)
+        keywords = "%s %s" % (title, artist)
         res = self.key_search(filter_str(keywords.lower()))
         hit_list = [e['mid'] for e in res['response']['data']['song']['list']]
 

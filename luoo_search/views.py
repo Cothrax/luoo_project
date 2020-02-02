@@ -10,10 +10,11 @@ from .models import QQ, Netease
 from random import randint
 # connections.create_connection(hosts=['144.34.156.145'])
 client = Elasticsearch(hosts=['127.0.0.1'], timeout=20)
+# client = Elasticsearch(hosts=['144.34.156.145'], timeout=20)
 ne_api = NeteaseAPI(api_url='http://118.24.119.64:3000/')
 qq_api = QQMusicAPI(api_url='http://118.24.119.64:3200/')
 
-TOTAL_NUM = 992
+TOTAL_NUM = 993
 IGNORED_VOLS = [544, 566, 567, 568]
 NULL_FILE = '/static/null.m4v'
 
@@ -127,6 +128,7 @@ def page(request, vol_id):
         if hit['prev_id'] in IGNORED_VOLS:
             hit['prev_id'] -= 1
 
+    if hit['id'] < TOTAL_NUM:
         hit['next_id'] = hit['id'] + 1
         if hit['next_id'] in IGNORED_VOLS:
             hit['next_id'] += 1
@@ -182,34 +184,33 @@ def search_song(request):
 
 
 def parse_file_url(piece):
-    file_url = '/luoo/file/?ne=%s&qq=%s'
+    file_url = '/luoo/file/?ne=%s&qq=%s&prior=%s'
     ne_str = ''
     qq_str = ''
-    if 'ne_id' in piece and piece['ne_sim'] > 0.75:
+    if 'ne_id' in piece and piece['ne_sim'] >= 0.70:
         ne_str = str(piece['ne_id'])
         piece['ne_url'] = ne_api.get_page_url(piece['ne_id'])
-    if 'qq_id' in piece and piece['qq_sim'] > 0.75:
+    if 'qq_id' in piece and piece['qq_sim'] >= 0.70:
         qq_str = str(piece['qq_id'])
         piece['qq_url'] = qq_api.get_page_url(piece['qq_id'])
 
-    if not ne_str and not qq_str:
-        if min(piece['ne_sim'], piece['qq_sim']) > 0.60:
-            if piece['qq_sin'] >= piece['ne_sim']:
-                qq_str = str(piece['qq_id'])
-                piece['qq_url'] = qq_api.get_page_url(piece['qq_id'])
-            else:
-                ne_str = str(piece['ne_id'])
-                piece['ne_url'] = ne_api.get_page_url(piece['ne_id'])
+    better = 0 if piece['qq_sim'] >= piece['ne_sim'] else 1
 
-    piece['file_url'] = file_url % (ne_str, qq_str)
+    # if not ne_str and not qq_str:
+    #     if min(piece['ne_sim'], piece['qq_sim']) > 0.60:
+    #         if piece['qq_sim'] >= piece['ne_sim']:
+    #             qq_str = str(piece['qq_id'])
+    #             piece['qq_url'] = qq_api.get_page_url(piece['qq_id'])
+    #         else:
+    #             ne_str = str(piece['ne_id'])
+    #             piece['ne_url'] = ne_api.get_page_url(piece['ne_id'])
+
+    piece['file_url'] = file_url % (ne_str, qq_str, better)
     if ne_str or qq_str:
         piece['href'] = 'qq' if piece['qq_sim'] >= piece['ne_sim'] else 'ne'
 
 
-def file(request):
-    qq_id = str(request.GET.get('qq', ''))
-    ne_id = str(request.GET.get('ne', ''))
-    print(ne_id, qq_id)
+def get_qq_url(qq_id):
     file_url = None
     if qq_id:
         songs = QQ.objects.filter(song_id=qq_id)
@@ -223,24 +224,72 @@ def file(request):
                 qq_song.song_url = qq_api.get_file_url(qq_id) or ''
                 qq_song.save()
             else:
-                return redirect(qq_song.song_url)
+                return qq_song.song_url
             file_url = qq_song.song_url
+    return valid_url(file_url)
 
-    if (not file_url or not valid_url(file_url)) and ne_id:
 
+def get_ne_url(ne_id):
+    file_url = None
+    if ne_id:
         songs = Netease.objects.filter(song_id=ne_id)
         if not len(songs):
             file_url = ne_api.get_file_url(ne_id)
-            ne_song = Netease(song_id=ne_id, song_url=file_url)
+            ne_song = Netease(song_id=ne_id, song_url=file_url or '')
             ne_song.save()
         else:
             ne_song = songs[0]
             if not valid_url(ne_song.song_url):
-                ne_song.song_url = ne_api.get_file_url(ne_id)
+                ne_song.song_url = ne_api.get_file_url(ne_id) or ''
                 ne_song.save()
             else:
-                return redirect(ne_song.song_url)
+                return ne_song.song_url
             file_url = ne_song.song_url
+    return valid_url(file_url)
+
+
+def file(request):
+    qq_id = str(request.GET.get('qq', ''))
+    ne_id = str(request.GET.get('ne', ''))
+    better = int(request.GET.get('prior', 0))
+    print(ne_id, qq_id, better)
+
+    if better:
+        file_url = get_ne_url(ne_id) or get_qq_url(qq_id)
+    else:
+        file_url = get_qq_url(qq_id) or get_ne_url(ne_id)
+
+    # file_url = None
+    # if qq_id:
+    #     songs = QQ.objects.filter(song_id=qq_id)
+    #     if not len(songs):
+    #         file_url = qq_api.get_file_url(qq_id)
+    #         qq_song = QQ(song_id=qq_id, song_url=file_url or '')
+    #         qq_song.save()
+    #     else:
+    #         qq_song = songs[0]
+    #         if not valid_url(qq_song.song_url):
+    #             qq_song.song_url = qq_api.get_file_url(qq_id) or ''
+    #             qq_song.save()
+    #         else:
+    #             return redirect(qq_song.song_url)
+    #         file_url = qq_song.song_url
+    #
+    # if not valid_url(file_url) and ne_id:
+    #
+    #     songs = Netease.objects.filter(song_id=ne_id)
+    #     if not len(songs):
+    #         file_url = ne_api.get_file_url(ne_id)
+    #         ne_song = Netease(song_id=ne_id, song_url=file_url)
+    #         ne_song.save()
+    #     else:
+    #         ne_song = songs[0]
+    #         if not valid_url(ne_song.song_url):
+    #             ne_song.song_url = ne_api.get_file_url(ne_id)
+    #             ne_song.save()
+    #         else:
+    #             return redirect(ne_song.song_url)
+    #         file_url = ne_song.song_url
 
     return redirect(file_url or NULL_FILE)
 

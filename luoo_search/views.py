@@ -252,7 +252,7 @@ def file(request):
     qq_id = str(request.GET.get('qq', ''))
     ne_id = str(request.GET.get('ne', ''))
     better = int(request.GET.get('prior', 0))
-    print(ne_id, qq_id, better)
+    # print(ne_id, qq_id, better)
 
     if better:
         file_url = get_ne_url(ne_id) or get_qq_url(qq_id)

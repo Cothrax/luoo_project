@@ -11,8 +11,8 @@ from random import randint
 # connections.create_connection(hosts=['144.34.156.145'])
 client = Elasticsearch(hosts=['127.0.0.1'], timeout=20)
 # client = Elasticsearch(hosts=['144.34.156.145'], timeout=20)
-ne_api = NeteaseAPI(api_url='http://118.24.119.64:3000/')
-qq_api = QQMusicAPI(api_url='http://118.24.119.64:3200/')
+ne_api = NeteaseAPI(api_url='http://119.27.165.131:3000/')
+qq_api = QQMusicAPI(api_url='http://119.27.165.131:3200/')
 
 TOTAL_NUM = 993
 IGNORED_VOLS = [544, 566, 567, 568]
